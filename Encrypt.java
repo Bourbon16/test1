@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Encrypt 
 {
 	Scanner scanner = new Scanner(System.in);
-	char[] code = new char[15];
+	private char[] code = new char[15];
 	char t;
 	
 	public void encrypt()
@@ -14,7 +14,7 @@ public class Encrypt
 		System.out.println("=========================");
 		System.out.printf("请输入要加密的数字密码：");
 		String str = scanner.next();
-		char[] code =str.toCharArray();
+		code =str.toCharArray();
 	
 		for(int i = 0; i < code.length; i++)
 		{

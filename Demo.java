@@ -16,7 +16,7 @@ public class Demo
 			System.out.println("    欢迎使用密码管理系统");
 			System.out.println("=========================");
 			System.out.println("        请选择操作:");
-			System.out.println("1.加密\n2.解密");
+			System.out.println("1.加密\n2.解密\n3.判断密码强度\n4.密码生成\n");
 			
 			System.out.printf("\n请输入选项序号：");
 			switch(scanner.nextInt())
